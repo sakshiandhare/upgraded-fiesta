@@ -24,5 +24,5 @@ def main():
             predicted_class = predict_image(uploaded_image)
             st.write("Predicted Class:", predicted_class)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
